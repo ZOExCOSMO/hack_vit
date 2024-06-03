@@ -1,0 +1,62 @@
+.expicon{
+    margin-bottom: 0px;
+    width: 150px;
+    height: 100px;
+}
+.title{
+    margin-top: 0px;
+    font-weight: 700;
+    font-size: 25px;
+}
+.dom{
+    column-gap: 8px;
+    row-gap: 8px;
+    display:grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    
+}
+@media(max-width:750px){
+    .dom{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+media(max-width:500px){
+    .dom{
+        grid-template-columns: 1fr 1fr ;
+    }
+}
+.gal{
+    margin-left: 0px;
+}
+.shop,.ente,.bills,.edu,.heal,.trans,.food{
+    display: inline-block;
+    border: solid;
+    border-color: rgb(227, 224, 224);
+    border-width: 2px;
+}
+.shop img,.ente img,.bills img,.edu img,.heal img,.trans img,.food img{
+    width: 30px;
+    height:30px;
+    display: inline-block;
+    vertical-align: top;
+}
+.st1,.st2,.st3,.st4,.st5,.st6,.st7{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+}
+.i1,.i2,.i3,.i4,.i5,.i6,.i7{
+    display: inline-block;
+    vertical-align: top;
+}
+.shop
+{
+    display: flex;
+}
+input{
+    border: none;
+}
+input:hover{
+    border:solid;
+    border-color: rgb(227, 224, 224);
+}
