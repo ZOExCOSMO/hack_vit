@@ -6,3 +6,9 @@
     font-size: 50px;
     padding-top: 60px;
 }
+.signup
+{
+    border-radius: 2px;
+    display: flex;
+    justify-content: space-between;
+}
